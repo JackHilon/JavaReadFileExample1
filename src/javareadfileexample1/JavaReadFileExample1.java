@@ -39,6 +39,7 @@ public class JavaReadFileExample1 {
             System.out.println("Do you have anther question? (y/n)");
             response = input.nextLine();
         }
+        input.close();
     }
 
 }// end class
